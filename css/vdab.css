@@ -10,7 +10,7 @@ body {
     font-size: 16px;
 }
 
-header, main, footer, section, article, nav, div, ul {
+header, main, footer, section, article, nav, div, ul, ol {
     padding: 0;
     margin: 0;
     border: 0;
@@ -63,7 +63,7 @@ code {
     color: #8B1C00;
 }
 
-#why {
+.backgroundGray {
     background-color: #EBE8E5;
 }
 
@@ -252,6 +252,39 @@ code {
 .footerText {
     font-size: 0.875rem;
     font-style: italic;
+}
+
+/* Route Styling */
+
+#route {
+    padding-bottom: 1rem;
+}
+
+.routeLeft, .routeRight {
+    padding-bottom: 1rem;
+}
+
+.routeLeft {
+    float: left;
+    width: 66.666%;
+    clear: both;
+    padding-right: 2rem;
+} 
+
+.routeRight {
+    float: right;
+    width: 33.33%;
+}
+
+.address {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+#gmap {
+    width: 100%;
+    height: 25rem;
+    background-color: grey;
 }
 
 /**
